@@ -39,7 +39,7 @@ def callback():
 
     return 'OK'
 
-with co.open('D:/linebot-test4/searching.csv', 'r', 'Shift-JIS', 'ignore') as file:
+with co.open('https://github.com/im16019/linebot-test2/blob/main/searching.csv', 'r', 'Shift-JIS', 'ignore') as file:
      data = pd.read_table(file, delimiter=',')
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
