@@ -14,8 +14,8 @@ import codecs as co
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('BW/HND4FU1efVOdN3KsTgQxucMlPz9VTmTC0B8xVZmOKAceLZQMjSvgTY5l+LXrvEpy+MJJ3mtrj+f+FRNst9499Abs8sFDZqDlyupjnoCD346QWjjrs7ksZTZrvrRodkSDNY2n3UBmnPX0F65nU0wdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('4567c2bd3d51462f7e0372915364c675')
+line_bot_api = LineBotApi('6+mGTbab9xfjZ0sTzyNWmT8JuLwAeJnwrY3P3h6l2LqH66cgkCMNn1E9vrhpfc5TEpy+MJJ3mtrj+f+FRNst9499Abs8sFDZqDlyupjnoCAZUpGLdglQAu4mexOyVsSsQQT75DdIXQ2qYyIoY1ibRgdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('879cd17815e58e70cc15cf61d8779d55')
 
 @app.route("/")
 def test():
